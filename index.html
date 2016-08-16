@@ -6,11 +6,31 @@
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/scripts.js"></script>
 
-    <title></title>
+    <title>Palindrome Checker</title>
   </head>
   <body>
     <div class="container">
-
+      <div class="jumbotron">
+        <h2>Check if your sentence is a palindrome:</h2>
+      </div>
+      <form>
+      <div class="form-group">
+        <label for="random-sentence"></label>
+        <input id="word" class="form-control input-lg" type="text" >
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg btn-block">Is it a palindrome?</button>
+    </form>
     </div>
+
+    <div class="container show-result">
+      <div class="panel panel-default">
+          <div class="panel-body">
+              <h2>
+                <span id="result"></span>
+              </h2>
+          </div>
+      </div>
+    </div>
+
   </body>
 </html>
